@@ -63,7 +63,9 @@ Respawn();
 
 //Shoot
 if (mouse_check_button_released(mb_left)){
-   instance_create(x,y,oBullet);
+   Bullet = instance_create(x,y,oBullet);
+   Bullet.Owner = self.id;
+   Bullet.Dir = sign(hsp);
 }
 </string>
           </argument>
