@@ -28,4 +28,3 @@ if (place_meeting(x, y + vsp, oGroundParent)){
 
 x = x + hsp;
 y = y + vsp;
-

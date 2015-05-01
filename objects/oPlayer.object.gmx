@@ -37,6 +37,7 @@ grav = 0.2;
 jumpspeed = 5;
 movespeed = 5;
 
+Life(200,0,0);
 </string>
           </argument>
         </arguments>
