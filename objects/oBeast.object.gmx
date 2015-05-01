@@ -25,16 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*Set View to follow the Beast*/
-if instance_exists(oBeast.id){
-    view_visible[0] = false;
-    view_object[1] = oBeast;
-    view_visible[1] = true;
-}
-
-image_speed = .1;
-AnimationEnd = 0;
-BeastTime = oGame.Sec1 / room_speed;
+            <string>image_speed = .1;
 
 hsp = 0;
 vsp = 0;
@@ -42,12 +33,6 @@ grav = 0.2;
 jumpspeed = 7.5;
 movespeed = 5;
 
-
-/*"CollisionDetection from Player"*/
-
-PlayerModeDetection();
-
-PlayerMovement();
 </string>
           </argument>
         </arguments>
@@ -70,29 +55,7 @@ PlayerMovement();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*Clarify the End of Animation*/
-if (image_index = 2){
-    image_speed = 0;
-    AnimationEnd = 1;
-}
-/*Check if Animation has ended and Proceeds*/
-if (AnimationEnd = 1){
-    if (BeastTime &lt; oGame.BeastTimeMax){ 
-        /*Movement*/
-        
-        PlayerMovement();
-        
-        /*"CollisionDetection"*/
-        
-        PlayerModeDetection();
-        BeastTime = BeastTime + (oGame.Sec1 / room_speed);
-    }
-    else {
-        instance_create(x, y, oPlayer)
-        instance_destroy();
-    }
-}
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

@@ -25,22 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>l = 0
-if instance_exists(oPlayer.id){
+            <string>if instance_exists(oPlayer.id){
     view_visible[1] = false;
     view_object[0] = oPlayer;
     view_visible[0] = true;
 }
-oGame.BeastMode = 0;
 
 hsp = 0;
 vsp = 0;
 grav = 0.2;
 jumpspeed = 5;
 movespeed = 5;
-
-/*"CollisionDetection from BeastMode"*/
-PlayerModeDetection();
 
 </string>
           </argument>
@@ -67,25 +62,8 @@ PlayerModeDetection();
             <string>/*Movement*/
 PlayerMovement();
 
-/*"CollisionDetection"*/
-
-PlayerModeDetection();
-
 /*Ground detection*/
 Respawn();
-
-/*Check Mode*/
-if (oGame.m = 3){
-    if(keyboard_check(vk_enter) or gamepad_button_check(0, gp_face3) and oGame.Souls &gt;= 20){
-            oGame.BeastMode = 1;
-    }
-}
-/*Beast-Mode*/
-if (oGame.BeastMode = 1){
-    oGame.Souls = oGame.Souls - oGame.Transform;
-    instance_create(x, y, oBeast);
-    instance_destroy();
-}
 
 </string>
           </argument>

@@ -26,11 +26,9 @@
   </paths>
   <scripts name="scripts">
     <scripts name="Player">
-      <script>scripts\PlayerModeDetection.gml</script>
       <script>scripts\PlayerMovement.gml</script>
       <script>scripts\Respawn.gml</script>
     </scripts>
-    <script>scripts\RainCollision.gml</script>
     <script>scripts\RectangleCollisionNoCenter.gml</script>
     <script>scripts\RectangleCollision.gml</script>
   </scripts>
@@ -40,13 +38,6 @@
     <object>objects\oBeast</object>
     <object>objects\oShadow</object>
     <object>objects\oBrightLight</object>
-    <objects name="gRain">
-      <object>objects\oRainGenerator</object>
-      <object>objects\oRain</object>
-      <object>objects\oRainScanner</object>
-      <object>objects\oRainDrop</object>
-      <object>objects\oSplash</object>
-    </objects>
     <objects name="gGround">
       <object>objects\oGroundParent</object>
       <object>objects\oGroundStone</object>

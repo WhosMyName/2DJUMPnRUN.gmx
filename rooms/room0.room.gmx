@@ -69,12 +69,6 @@
     <instance objName="oGroundWood" x="672" y="256" name="inst_13248235" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGroundWood" x="768" y="368" name="inst_7F633232" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGroundWood" x="704" y="560" name="inst_3C737135" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRainGenerator" x="0" y="0" name="inst_4F19B90B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRainGenerator" x="32" y="0" name="inst_5ED3AF28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRainGenerator" x="64" y="0" name="inst_03FA4495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRainGenerator" x="96" y="0" name="inst_51226C6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRainGenerator" x="128" y="0" name="inst_E96AAC15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRainGenerator" x="160" y="0" name="inst_20F46AE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
