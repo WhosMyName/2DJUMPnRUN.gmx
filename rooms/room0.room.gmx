@@ -53,7 +53,7 @@
   <instances>
     <instance objName="oGroundWood" x="256" y="288" name="inst_74E9C48C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGroundWood" x="512" y="160" name="inst_3408FFF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPlayer" x="16" y="64" name="inst_42FE2667" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayer" x="160" y="32" name="inst_42FE2667" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGame" x="96" y="384" name="inst_8CCF48B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGroundWood" x="128" y="224" name="inst_46EA7669" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGroundWood" x="160" y="224" name="inst_C043F5F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

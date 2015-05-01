@@ -27,6 +27,7 @@
     <script>scripts\RectangleCollision.gml</script>
     <script>scripts\RectangleCollisionID.gml</script>
     <script>scripts\Life.gml</script>
+    <script>scripts\DeathOnCollision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oGame</object>
