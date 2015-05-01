@@ -55,7 +55,21 @@ Sec1 = 1 * room_speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>if (keyboard_check_released(vk_escape) or gamepad_button_check_released(0, gp_select)){
+    if (Close == 0){
+    window_set_fullscreen(false);
+    Close = 1;
+    }
+    else {
+    game_end();
+    }
+}
+if (keyboard_check_released(vk_enter) or gamepad_button_check_released(0, gp_start)){
+RoomIndex = RoomIndex + 1;
+room_goto_next();
+}
+
+</string>
           </argument>
         </arguments>
       </action>
