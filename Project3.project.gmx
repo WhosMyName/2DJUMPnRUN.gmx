@@ -10,6 +10,7 @@
     <sprite>sprites\sPlayer2</sprite>
     <sprite>sprites\sBeast</sprite>
     <sprite>sprites\sGround</sprite>
+    <sprite>sprites\sBullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -40,6 +41,7 @@
       <object>objects\oGroundRoof</object>
       <object>objects\oGroundGrass</object>
     </objects>
+    <object>objects\oBullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
