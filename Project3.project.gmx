@@ -6,17 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sPlayer1</sprite>
+    <sprite>sprites\sPlayer2</sprite>
     <sprite>sprites\sBeast</sprite>
-    <sprite>sprites\sShadow</sprite>
-    <sprites name="gRain">
-      <sprite>sprites\sRainGenerator</sprite>
-      <sprite>sprites\sRain</sprite>
-      <sprite>sprites\sRainDrop</sprite>
-      <sprite>sprites\sSplash</sprite>
-    </sprites>
     <sprite>sprites\sGround</sprite>
-    <sprite>sprites\sprite8</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -27,8 +20,8 @@
   <scripts name="scripts">
     <scripts name="Player">
       <script>scripts\Player1Movement.gml</script>
-      <script>scripts\Respawn.gml</script>
       <script>scripts\Player2Movement.gml</script>
+      <script>scripts\Respawn.gml</script>
     </scripts>
     <script>scripts\RectangleCollisionNoCenter.gml</script>
     <script>scripts\RectangleCollision.gml</script>
@@ -37,8 +30,6 @@
     <object>objects\oGame</object>
     <object>objects\oPlayer</object>
     <object>objects\oBeast</object>
-    <object>objects\oShadow</object>
-    <object>objects\oBrightLight</object>
     <objects name="gGround">
       <object>objects\oGroundParent</object>
       <object>objects\oGroundStone</object>
