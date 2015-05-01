@@ -28,8 +28,7 @@
             <string>/*FullScreen*/
 window_set_fullscreen(true);
 
-/*Global Var*/
-
+Close = 0;
 //1 Second
 globalvar Sec1;
 Sec1 = 1 * room_speed;

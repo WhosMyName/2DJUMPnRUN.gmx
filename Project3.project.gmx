@@ -26,8 +26,9 @@
   </paths>
   <scripts name="scripts">
     <scripts name="Player">
-      <script>scripts\PlayerMovement.gml</script>
+      <script>scripts\Player1Movement.gml</script>
       <script>scripts\Respawn.gml</script>
+      <script>scripts\Player2Movement.gml</script>
     </scripts>
     <script>scripts\RectangleCollisionNoCenter.gml</script>
     <script>scripts\RectangleCollision.gml</script>

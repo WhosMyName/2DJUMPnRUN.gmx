@@ -60,7 +60,7 @@ movespeed = 5;
           <argument>
             <kind>1</kind>
             <string>/*Movement*/
-PlayerMovement();
+Player1Movement();
 
 /*Ground detection*/
 Respawn();
